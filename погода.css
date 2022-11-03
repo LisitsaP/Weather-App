@@ -1,0 +1,72 @@
+body {
+  background-image: url(sun2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#input {
+  background-color: rgba(142, 127, 161, 0.3);
+  border-radius: 20px;
+  border: 3px solid #cdf3a2;
+  padding: 15px;
+  font-size: 20px;
+}
+#when-where {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#city {
+  color: #4273a1;
+  font-size: 45px;
+}
+#date {
+  color: #4273a1;
+  font-size: 24px;
+}
+#now {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#temperature {
+  color: #4273a1;
+  font-size: 110px;
+  font-weight: bold;
+  text-shadow: 3px 3px white;
+  margin: 0;
+}
+
+#feelsLike {
+  color: #4273a1;
+  font-size: 30px;
+  font-weight: bold;
+}
+#conditions {
+  color: #4e67a2;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+}
+#variation {
+  color: #4273a1;
+  font-size: 26px;
+  font-weight: bold;
+}
+.freepik {
+  font-size: 10px;
+  color: gray;
+  text-decoration: none;
+}
