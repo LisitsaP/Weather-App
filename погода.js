@@ -143,3 +143,5 @@ function weatherBakground(result) {
     document.body.style.backgroundImage = "url('storm.jpg')";
   }
 }
+
+gsap.from("#container", { opacity: 0, y: -10, duration: 1, delay: 1q});

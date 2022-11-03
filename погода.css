@@ -2,6 +2,7 @@ body {
   background-image: url(sun2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #a3c9ed;
   margin: 0;
 }
 #container {
